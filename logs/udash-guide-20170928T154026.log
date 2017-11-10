@@ -1,0 +1,257 @@
+15:40:27.035 [run-main-0] INFO  org.eclipse.jetty.util.log - Logging initialized @25640ms
+15:40:27.542 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereHandler io.udash.rpc.AtmosphereService mapped to context-path: /*
+15:40:27.543 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed the following AtmosphereInterceptor mapped to AtmosphereHandler io.udash.rpc.AtmosphereService
+15:40:27.564 [run-main-0] WARN  o.atmosphere.cpr.AtmosphereFramework - SessionSupport error. Make sure you also define org.atmosphere.cpr.SessionSupport as a listener in web.xml, see https://github.com/Atmosphere/atmosphere/wiki/Enabling-HttpSession-Support
+15:40:27.594 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Atmosphere is using org.atmosphere.cpr.DefaultAnnotationProcessor for processing annotation
+15:40:27.595 [run-main-0] INFO  o.a.cpr.DefaultAnnotationProcessor - AnnotationProcessor class org.atmosphere.cpr.DefaultAnnotationProcessor$BytecodeBasedAnnotationProcessor being used
+15:40:27.645 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Auto detecting WebSocketHandler in /WEB-INF/classes/
+15:40:27.646 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+15:40:27.958 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installing Default AtmosphereInterceptors
+15:40:27.959 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+15:40:27.959 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+15:40:27.960 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+15:40:27.960 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+15:40:27.961 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+15:40:27.961 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+15:40:27.961 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+15:40:27.962 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+15:40:27.963 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+15:40:27.963 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+15:40:27.963 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+15:40:27.963 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+15:40:27.964 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+15:40:27.968 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+15:40:27.969 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+15:40:27.970 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+15:40:27.970 [run-main-0] INFO  o.a.interceptor.HeartbeatInterceptor - HeartbeatInterceptor configured with padding value 'X', client frequency 30 seconds and server frequency 30 seconds
+15:40:27.970 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+15:40:27.970 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+15:40:27.970 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+15:40:27.971 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+15:40:27.971 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+15:40:27.971 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+15:40:27.971 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+15:40:27.973 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+15:40:27.974 [run-main-0] WARN  o.atmosphere.cpr.AtmosphereFramework - No BroadcasterCache configured. Broadcasted message between client reconnection will be LOST. It is recommended to configure the org.atmosphere.cache.UUIDBroadcasterCache
+15:40:27.975 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+15:40:27.975 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Broadcaster Shared List Resources: false
+15:40:27.975 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Broadcaster Polling Wait Time 100
+15:40:27.975 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Shared ExecutorService supported: true
+15:40:27.975 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Messaging Thread Pool Size: 4
+15:40:27.975 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Async I/O Thread Pool Size: 4
+15:40:27.975 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+15:40:27.976 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+15:40:27.976 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+15:40:27.976 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Invoke AtmosphereInterceptor on WebSocket message true
+15:40:27.976 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - HttpSession supported: true
+15:40:27.976 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Atmosphere is using DefaultAtmosphereObjectFactory for dependency injection and object creation
+15:40:27.976 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Atmosphere is using async support: org.atmosphere.container.Jetty9AsyncSupportWithWebSocket running under container: Undefined/0.0 with WebSocket enabled.
+15:40:27.978 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Atmosphere Framework 2.4.9 started.
+15:40:27.978 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - 
+
+	For Atmosphere Framework Commercial Support, visit 
+	http://www.async-io.org/ or send an email to support@async-io.org
+
+15:40:27.983 [run-main-0] INFO  org.eclipse.jetty.server.Server - jetty-9.3.11.v20160721
+15:40:28.139 [run-main-0] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2a2c84f9{/,null,AVAILABLE}
+15:40:28.148 [run-main-0] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@53fb3f51{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+15:40:28.148 [run-main-0] INFO  org.eclipse.jetty.server.Server - Started @26755ms
+15:40:28.726 [Thread-2] INFO  o.atmosphere.cpr.AtmosphereFramework - Latest version of Atmosphere's JavaScript Client 2.3.1
+15:40:40.283 [scala-execution-context-global-100] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+java.lang.Exception: null
+	at it.lorenzogabriele.impara.rpc.MainServerRPCImpl.services(ExposedRpcInterfaces.scala:23)
+	at it.lorenzogabriele.impara.jetty.ApplicationServer$$anon$7$$anon$1.get(ApplicationServer.scala:40)
+	at it.lorenzogabriele.impara.jetty.ApplicationServer$$anon$7$$anon$1.get(ApplicationServer.scala:40)
+	at com.avsystem.commons.rpc.GetterRPCFramework$GetterRawRPC.$anonfun$resolveGetterChain$1(StandardRPCFramework.scala:50)
+	at scala.collection.immutable.List.$anonfun$foldRight$1(List.scala:405)
+	at scala.collection.immutable.List.foldRight(List.scala:86)
+	at com.avsystem.commons.rpc.GetterRPCFramework$GetterRawRPC.resolveGetterChain(StandardRPCFramework.scala:50)
+	at com.avsystem.commons.rpc.GetterRPCFramework$GetterRawRPC.resolveGetterChain$(StandardRPCFramework.scala:49)
+	at it.lorenzogabriele.impara.jetty.ApplicationServer$$anon$7$$anon$1.resolveGetterChain(ApplicationServer.scala:40)
+	at io.udash.rpc.ExposesServerRPC.handleRpcCall(ExposesServerRPC.scala:23)
+	at io.udash.rpc.AtmosphereService.handleRpcRequest(AtmosphereService.scala:182)
+	at io.udash.rpc.AtmosphereService.handleRequest(AtmosphereService.scala:122)
+	at io.udash.rpc.AtmosphereService.onWebsocketRequest(AtmosphereService.scala:84)
+	at io.udash.rpc.AtmosphereService.onRequest(AtmosphereService.scala:64)
+	at org.atmosphere.cpr.AsynchronousProcessor.action(AsynchronousProcessor.java:223)
+	at org.atmosphere.cpr.AsynchronousProcessor.suspended(AsynchronousProcessor.java:115)
+	at org.atmosphere.container.Jetty9AsyncSupportWithWebSocket.service(Jetty9AsyncSupportWithWebSocket.java:180)
+	at org.atmosphere.cpr.AtmosphereFramework.doCometSupport(AtmosphereFramework.java:2287)
+	at org.atmosphere.websocket.DefaultWebSocketProcessor.dispatch(DefaultWebSocketProcessor.java:593)
+	at org.atmosphere.websocket.DefaultWebSocketProcessor$3.run(DefaultWebSocketProcessor.java:345)
+	at org.atmosphere.util.VoidExecutorService.execute(VoidExecutorService.java:101)
+	at org.atmosphere.websocket.DefaultWebSocketProcessor.dispatch(DefaultWebSocketProcessor.java:340)
+	at org.atmosphere.websocket.DefaultWebSocketProcessor.invokeWebSocketProtocol(DefaultWebSocketProcessor.java:447)
+	at org.atmosphere.container.Jetty9WebSocketHandler.onWebSocketText(Jetty9WebSocketHandler.java:128)
+	at org.eclipse.jetty.websocket.common.events.JettyListenerEventDriver.onTextMessage(JettyListenerEventDriver.java:189)
+	at org.eclipse.jetty.websocket.common.message.SimpleTextMessage.messageComplete(SimpleTextMessage.java:69)
+	at org.eclipse.jetty.websocket.common.events.AbstractEventDriver.appendMessage(AbstractEventDriver.java:66)
+	at org.eclipse.jetty.websocket.common.events.JettyListenerEventDriver.onTextFrame(JettyListenerEventDriver.java:158)
+	at org.eclipse.jetty.websocket.common.events.AbstractEventDriver.incomingFrame(AbstractEventDriver.java:162)
+	at org.eclipse.jetty.websocket.common.WebSocketSession.incomingFrame(WebSocketSession.java:376)
+	at org.eclipse.jetty.websocket.common.extensions.ExtensionStack.incomingFrame(ExtensionStack.java:220)
+	at org.eclipse.jetty.websocket.common.Parser.notifyFrame(Parser.java:220)
+	at org.eclipse.jetty.websocket.common.Parser.parse(Parser.java:256)
+	at org.eclipse.jetty.websocket.common.io.AbstractWebSocketConnection.readParse(AbstractWebSocketConnection.java:679)
+	at org.eclipse.jetty.websocket.common.io.AbstractWebSocketConnection.onFillable(AbstractWebSocketConnection.java:511)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+15:40:45.962 [scala-execution-context-global-100] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+java.lang.Exception: null
+	at it.lorenzogabriele.impara.rpc.MainServerRPCImpl.services(ExposedRpcInterfaces.scala:23)
+	at it.lorenzogabriele.impara.jetty.ApplicationServer$$anon$7$$anon$1.get(ApplicationServer.scala:40)
+	at it.lorenzogabriele.impara.jetty.ApplicationServer$$anon$7$$anon$1.get(ApplicationServer.scala:40)
+	at com.avsystem.commons.rpc.GetterRPCFramework$GetterRawRPC.$anonfun$resolveGetterChain$1(StandardRPCFramework.scala:50)
+	at scala.collection.immutable.List.$anonfun$foldRight$1(List.scala:405)
+	at scala.collection.immutable.List.foldRight(List.scala:86)
+	at com.avsystem.commons.rpc.GetterRPCFramework$GetterRawRPC.resolveGetterChain(StandardRPCFramework.scala:50)
+	at com.avsystem.commons.rpc.GetterRPCFramework$GetterRawRPC.resolveGetterChain$(StandardRPCFramework.scala:49)
+	at it.lorenzogabriele.impara.jetty.ApplicationServer$$anon$7$$anon$1.resolveGetterChain(ApplicationServer.scala:40)
+	at io.udash.rpc.ExposesServerRPC.handleRpcCall(ExposesServerRPC.scala:23)
+	at io.udash.rpc.AtmosphereService.handleRpcRequest(AtmosphereService.scala:182)
+	at io.udash.rpc.AtmosphereService.handleRequest(AtmosphereService.scala:122)
+	at io.udash.rpc.AtmosphereService.onWebsocketRequest(AtmosphereService.scala:84)
+	at io.udash.rpc.AtmosphereService.onRequest(AtmosphereService.scala:64)
+	at org.atmosphere.cpr.AsynchronousProcessor.action(AsynchronousProcessor.java:223)
+	at org.atmosphere.cpr.AsynchronousProcessor.suspended(AsynchronousProcessor.java:115)
+	at org.atmosphere.container.Jetty9AsyncSupportWithWebSocket.service(Jetty9AsyncSupportWithWebSocket.java:180)
+	at org.atmosphere.cpr.AtmosphereFramework.doCometSupport(AtmosphereFramework.java:2287)
+	at org.atmosphere.websocket.DefaultWebSocketProcessor.dispatch(DefaultWebSocketProcessor.java:593)
+	at org.atmosphere.websocket.DefaultWebSocketProcessor$3.run(DefaultWebSocketProcessor.java:345)
+	at org.atmosphere.util.VoidExecutorService.execute(VoidExecutorService.java:101)
+	at org.atmosphere.websocket.DefaultWebSocketProcessor.dispatch(DefaultWebSocketProcessor.java:340)
+	at org.atmosphere.websocket.DefaultWebSocketProcessor.invokeWebSocketProtocol(DefaultWebSocketProcessor.java:447)
+	at org.atmosphere.container.Jetty9WebSocketHandler.onWebSocketText(Jetty9WebSocketHandler.java:128)
+	at org.eclipse.jetty.websocket.common.events.JettyListenerEventDriver.onTextMessage(JettyListenerEventDriver.java:189)
+	at org.eclipse.jetty.websocket.common.message.SimpleTextMessage.messageComplete(SimpleTextMessage.java:69)
+	at org.eclipse.jetty.websocket.common.events.AbstractEventDriver.appendMessage(AbstractEventDriver.java:66)
+	at org.eclipse.jetty.websocket.common.events.JettyListenerEventDriver.onTextFrame(JettyListenerEventDriver.java:158)
+	at org.eclipse.jetty.websocket.common.events.AbstractEventDriver.incomingFrame(AbstractEventDriver.java:162)
+	at org.eclipse.jetty.websocket.common.WebSocketSession.incomingFrame(WebSocketSession.java:376)
+	at org.eclipse.jetty.websocket.common.extensions.ExtensionStack.incomingFrame(ExtensionStack.java:220)
+	at org.eclipse.jetty.websocket.common.Parser.notifyFrame(Parser.java:220)
+	at org.eclipse.jetty.websocket.common.Parser.parse(Parser.java:256)
+	at org.eclipse.jetty.websocket.common.io.AbstractWebSocketConnection.readParse(AbstractWebSocketConnection.java:679)
+	at org.eclipse.jetty.websocket.common.io.AbstractWebSocketConnection.onFillable(AbstractWebSocketConnection.java:511)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+15:40:55.189 [scala-execution-context-global-100] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+java.lang.Exception: null
+	at it.lorenzogabriele.impara.rpc.MainServerRPCImpl.services(ExposedRpcInterfaces.scala:23)
+	at it.lorenzogabriele.impara.jetty.ApplicationServer$$anon$7$$anon$1.get(ApplicationServer.scala:40)
+	at it.lorenzogabriele.impara.jetty.ApplicationServer$$anon$7$$anon$1.get(ApplicationServer.scala:40)
+	at com.avsystem.commons.rpc.GetterRPCFramework$GetterRawRPC.$anonfun$resolveGetterChain$1(StandardRPCFramework.scala:50)
+	at scala.collection.immutable.List.$anonfun$foldRight$1(List.scala:405)
+	at scala.collection.immutable.List.foldRight(List.scala:86)
+	at com.avsystem.commons.rpc.GetterRPCFramework$GetterRawRPC.resolveGetterChain(StandardRPCFramework.scala:50)
+	at com.avsystem.commons.rpc.GetterRPCFramework$GetterRawRPC.resolveGetterChain$(StandardRPCFramework.scala:49)
+	at it.lorenzogabriele.impara.jetty.ApplicationServer$$anon$7$$anon$1.resolveGetterChain(ApplicationServer.scala:40)
+	at io.udash.rpc.ExposesServerRPC.handleRpcCall(ExposesServerRPC.scala:23)
+	at io.udash.rpc.AtmosphereService.handleRpcRequest(AtmosphereService.scala:182)
+	at io.udash.rpc.AtmosphereService.handleRequest(AtmosphereService.scala:122)
+	at io.udash.rpc.AtmosphereService.onWebsocketRequest(AtmosphereService.scala:84)
+	at io.udash.rpc.AtmosphereService.onRequest(AtmosphereService.scala:64)
+	at org.atmosphere.cpr.AsynchronousProcessor.action(AsynchronousProcessor.java:223)
+	at org.atmosphere.cpr.AsynchronousProcessor.suspended(AsynchronousProcessor.java:115)
+	at org.atmosphere.container.Jetty9AsyncSupportWithWebSocket.service(Jetty9AsyncSupportWithWebSocket.java:180)
+	at org.atmosphere.cpr.AtmosphereFramework.doCometSupport(AtmosphereFramework.java:2287)
+	at org.atmosphere.websocket.DefaultWebSocketProcessor.dispatch(DefaultWebSocketProcessor.java:593)
+	at org.atmosphere.websocket.DefaultWebSocketProcessor$3.run(DefaultWebSocketProcessor.java:345)
+	at org.atmosphere.util.VoidExecutorService.execute(VoidExecutorService.java:101)
+	at org.atmosphere.websocket.DefaultWebSocketProcessor.dispatch(DefaultWebSocketProcessor.java:340)
+	at org.atmosphere.websocket.DefaultWebSocketProcessor.invokeWebSocketProtocol(DefaultWebSocketProcessor.java:447)
+	at org.atmosphere.container.Jetty9WebSocketHandler.onWebSocketText(Jetty9WebSocketHandler.java:128)
+	at org.eclipse.jetty.websocket.common.events.JettyListenerEventDriver.onTextMessage(JettyListenerEventDriver.java:189)
+	at org.eclipse.jetty.websocket.common.message.SimpleTextMessage.messageComplete(SimpleTextMessage.java:69)
+	at org.eclipse.jetty.websocket.common.events.AbstractEventDriver.appendMessage(AbstractEventDriver.java:66)
+	at org.eclipse.jetty.websocket.common.events.JettyListenerEventDriver.onTextFrame(JettyListenerEventDriver.java:158)
+	at org.eclipse.jetty.websocket.common.events.AbstractEventDriver.incomingFrame(AbstractEventDriver.java:162)
+	at org.eclipse.jetty.websocket.common.WebSocketSession.incomingFrame(WebSocketSession.java:376)
+	at org.eclipse.jetty.websocket.common.extensions.ExtensionStack.incomingFrame(ExtensionStack.java:220)
+	at org.eclipse.jetty.websocket.common.Parser.notifyFrame(Parser.java:220)
+	at org.eclipse.jetty.websocket.common.Parser.parse(Parser.java:256)
+	at org.eclipse.jetty.websocket.common.io.AbstractWebSocketConnection.readParse(AbstractWebSocketConnection.java:679)
+	at org.eclipse.jetty.websocket.common.io.AbstractWebSocketConnection.onFillable(AbstractWebSocketConnection.java:511)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+15:45:25.349 [db-async-netty-thread-2] INFO  c.g.m.a.d.p.c.PostgreSQLConnectionHandler - Connection disconnected - localhost/127.0.0.1:5432
+15:45:25.353 [db-async-netty-thread-1] INFO  c.g.m.a.d.p.c.PostgreSQLConnectionHandler - Connection disconnected - localhost/127.0.0.1:5432
+15:45:35.332 [db-async-netty-thread-3] INFO  c.g.m.a.d.p.c.PostgreSQLConnectionHandler - Connection disconnected - localhost/127.0.0.1:5432
+15:45:45.334 [db-async-netty-thread-4] INFO  c.g.m.a.d.p.c.PostgreSQLConnectionHandler - Connection disconnected - localhost/127.0.0.1:5432
+15:47:20.334 [db-async-netty-thread-5] INFO  c.g.m.a.d.p.c.PostgreSQLConnectionHandler - Connection disconnected - localhost/127.0.0.1:5432
+15:48:49.165 [db-async-netty-thread-6] ERROR c.g.m.a.d.p.PostgreSQLConnection - Error with message -> ErrorMessage(fields=Map(Position -> 13, Line -> 1160, File -> parse_relation.c, SQLSTATE -> 42P01, Routine -> parserOpenTable, Message -> relation "domanda_risposta_db" does not exist, Severity -> ERROR))
+15:48:49.178 [db-async-netty-thread-6] ERROR c.g.m.a.d.p.PostgreSQLConnection - Error on connection
+com.github.mauricio.async.db.postgresql.exceptions.GenericDatabaseException: ErrorMessage(fields=Map(Position -> 13, Line -> 1160, File -> parse_relation.c, SQLSTATE -> 42P01, Routine -> parserOpenTable, Message -> relation "domanda_risposta_db" does not exist, Severity -> ERROR))
+	at com.github.mauricio.async.db.postgresql.PostgreSQLConnection.onError(PostgreSQLConnection.scala:175)
+	at com.github.mauricio.async.db.postgresql.codec.PostgreSQLConnectionHandler.channelRead0(PostgreSQLConnectionHandler.scala:206)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:280)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:396)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at java.lang.Thread.run(Thread.java:748)
+15:48:49.181 [db-async-netty-thread-6] ERROR c.g.m.a.d.p.PostgreSQLConnection - Setting error on future Future(<not completed>)
+15:48:49.183 [scala-execution-context-global-172] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+com.github.mauricio.async.db.postgresql.exceptions.GenericDatabaseException: ErrorMessage(fields=Map(Position -> 13, Line -> 1160, File -> parse_relation.c, SQLSTATE -> 42P01, Routine -> parserOpenTable, Message -> relation "domanda_risposta_db" does not exist, Severity -> ERROR))
+	at com.github.mauricio.async.db.postgresql.PostgreSQLConnection.onError(PostgreSQLConnection.scala:175)
+	at com.github.mauricio.async.db.postgresql.codec.PostgreSQLConnectionHandler.channelRead0(PostgreSQLConnectionHandler.scala:206)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:280)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:396)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at java.lang.Thread.run(Thread.java:748)
+15:48:50.331 [db-async-netty-thread-6] INFO  c.g.m.a.d.p.c.PostgreSQLConnectionHandler - Connection disconnected - localhost/127.0.0.1:5432

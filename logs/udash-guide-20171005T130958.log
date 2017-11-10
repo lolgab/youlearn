@@ -1,0 +1,59 @@
+13:09:58.118 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @984ms
+13:09:58.380 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereHandler io.udash.rpc.AtmosphereService mapped to context-path: /*
+13:09:58.380 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed the following AtmosphereInterceptor mapped to AtmosphereHandler io.udash.rpc.AtmosphereService
+13:09:58.405 [main] WARN  o.atmosphere.cpr.AtmosphereFramework - SessionSupport error. Make sure you also define org.atmosphere.cpr.SessionSupport as a listener in web.xml, see https://github.com/Atmosphere/atmosphere/wiki/Enabling-HttpSession-Support
+13:09:58.431 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Atmosphere is using org.atmosphere.cpr.DefaultAnnotationProcessor for processing annotation
+13:09:58.432 [main] INFO  o.a.cpr.DefaultAnnotationProcessor - AnnotationProcessor class org.atmosphere.cpr.DefaultAnnotationProcessor$BytecodeBasedAnnotationProcessor being used
+13:09:58.475 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Auto detecting WebSocketHandler in /WEB-INF/classes/
+13:09:58.476 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+13:09:58.503 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installing Default AtmosphereInterceptors
+13:09:58.504 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+13:09:58.504 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+13:09:58.505 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+13:09:58.505 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+13:09:58.506 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+13:09:58.507 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+13:09:58.507 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+13:09:58.509 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+13:09:58.509 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+13:09:58.510 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+13:09:58.510 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+13:09:58.510 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+13:09:58.511 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+13:09:58.517 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+13:09:58.518 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+13:09:58.518 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+13:09:58.518 [main] INFO  o.a.interceptor.HeartbeatInterceptor - HeartbeatInterceptor configured with padding value 'X', client frequency 30 seconds and server frequency 30 seconds
+13:09:58.519 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+13:09:58.519 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+13:09:58.519 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+13:09:58.519 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+13:09:58.519 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+13:09:58.519 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+13:09:58.520 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+13:09:58.521 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+13:09:58.522 [main] WARN  o.atmosphere.cpr.AtmosphereFramework - No BroadcasterCache configured. Broadcasted message between client reconnection will be LOST. It is recommended to configure the org.atmosphere.cache.UUIDBroadcasterCache
+13:09:58.523 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+13:09:58.523 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Broadcaster Shared List Resources: false
+13:09:58.523 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Broadcaster Polling Wait Time 100
+13:09:58.523 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Shared ExecutorService supported: true
+13:09:58.523 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Messaging Thread Pool Size: 4
+13:09:58.523 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Async I/O Thread Pool Size: 4
+13:09:58.524 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+13:09:58.524 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+13:09:58.524 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+13:09:58.524 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Invoke AtmosphereInterceptor on WebSocket message true
+13:09:58.524 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - HttpSession supported: true
+13:09:58.524 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Atmosphere is using DefaultAtmosphereObjectFactory for dependency injection and object creation
+13:09:58.524 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Atmosphere is using async support: org.atmosphere.container.Jetty9AsyncSupportWithWebSocket running under container: Undefined/0.0 with WebSocket enabled.
+13:09:58.526 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Atmosphere Framework 2.4.9 started.
+13:09:58.526 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 
+
+	For Atmosphere Framework Commercial Support, visit 
+	http://www.async-io.org/ or send an email to support@async-io.org
+
+13:09:58.531 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.11.v20160721
+13:09:58.566 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@21e360a{/,null,AVAILABLE}
+13:09:58.576 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@37d4349f{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+13:09:58.576 [main] INFO  org.eclipse.jetty.server.Server - Started @1444ms
+13:09:58.960 [Thread-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Latest version of Atmosphere's JavaScript Client 2.3.5

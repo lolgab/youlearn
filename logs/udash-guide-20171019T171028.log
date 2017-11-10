@@ -1,0 +1,344 @@
+17:10:28.126 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @675ms
+17:10:28.381 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereHandler io.udash.rpc.AtmosphereService mapped to context-path: /*
+17:10:28.382 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed the following AtmosphereInterceptor mapped to AtmosphereHandler io.udash.rpc.AtmosphereService
+17:10:28.411 [main] WARN  o.atmosphere.cpr.AtmosphereFramework - SessionSupport error. Make sure you also define org.atmosphere.cpr.SessionSupport as a listener in web.xml, see https://github.com/Atmosphere/atmosphere/wiki/Enabling-HttpSession-Support
+17:10:28.440 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Atmosphere is using org.atmosphere.cpr.DefaultAnnotationProcessor for processing annotation
+17:10:28.441 [main] INFO  o.a.cpr.DefaultAnnotationProcessor - AnnotationProcessor class org.atmosphere.cpr.DefaultAnnotationProcessor$BytecodeBasedAnnotationProcessor being used
+17:10:28.502 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Auto detecting WebSocketHandler in /WEB-INF/classes/
+17:10:28.502 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+17:10:28.535 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installing Default AtmosphereInterceptors
+17:10:28.536 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+17:10:28.536 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+17:10:28.536 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+17:10:28.537 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+17:10:28.538 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+17:10:28.538 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+17:10:28.538 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+17:10:28.539 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+17:10:28.540 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+17:10:28.540 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+17:10:28.540 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+17:10:28.540 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+17:10:28.541 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+17:10:28.547 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+17:10:28.547 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+17:10:28.548 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+17:10:28.548 [main] INFO  o.a.interceptor.HeartbeatInterceptor - HeartbeatInterceptor configured with padding value 'X', client frequency 30 seconds and server frequency 30 seconds
+17:10:28.548 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+17:10:28.549 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+17:10:28.549 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+17:10:28.549 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+17:10:28.549 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+17:10:28.549 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+17:10:28.549 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+17:10:28.551 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+17:10:28.552 [main] WARN  o.atmosphere.cpr.AtmosphereFramework - No BroadcasterCache configured. Broadcasted message between client reconnection will be LOST. It is recommended to configure the org.atmosphere.cache.UUIDBroadcasterCache
+17:10:28.552 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+17:10:28.552 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Broadcaster Shared List Resources: false
+17:10:28.552 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Broadcaster Polling Wait Time 100
+17:10:28.552 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Shared ExecutorService supported: true
+17:10:28.552 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Messaging Thread Pool Size: 4
+17:10:28.552 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Async I/O Thread Pool Size: 4
+17:10:28.552 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+17:10:28.552 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+17:10:28.552 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+17:10:28.553 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Invoke AtmosphereInterceptor on WebSocket message true
+17:10:28.553 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - HttpSession supported: true
+17:10:28.553 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Atmosphere is using DefaultAtmosphereObjectFactory for dependency injection and object creation
+17:10:28.553 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Atmosphere is using async support: org.atmosphere.container.Jetty9AsyncSupportWithWebSocket running under container: Undefined/0.0 with WebSocket enabled.
+17:10:28.554 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Atmosphere Framework 2.4.9 started.
+17:10:28.554 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 
+
+	For Atmosphere Framework Commercial Support, visit 
+	http://www.async-io.org/ or send an email to support@async-io.org
+
+17:10:28.560 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.11.v20160721
+17:10:28.603 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@21e360a{/,null,AVAILABLE}
+17:10:28.616 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@37d4349f{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+17:10:28.617 [main] INFO  org.eclipse.jetty.server.Server - Started @1169ms
+17:10:29.022 [Thread-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Latest version of Atmosphere's JavaScript Client 2.3.5
+17:11:06.953 [scala-execution-context-global-52] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+com.github.mauricio.async.db.pool.PoolExhaustedException: There are no objects available and the waitQueue is full
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.enqueuePromise(SingleThreadedAsyncObjectPool.scala:194)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.$anonfun$checkout$1(SingleThreadedAsyncObjectPool.scala:204)
+	at com.github.mauricio.async.db.util.Worker$$anon$1.run(Worker.scala:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+17:11:06.953 [scala-execution-context-global-48] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+com.github.mauricio.async.db.pool.PoolExhaustedException: There are no objects available and the waitQueue is full
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.enqueuePromise(SingleThreadedAsyncObjectPool.scala:194)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.$anonfun$checkout$1(SingleThreadedAsyncObjectPool.scala:204)
+	at com.github.mauricio.async.db.util.Worker$$anon$1.run(Worker.scala:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+17:11:06.953 [scala-execution-context-global-51] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+com.github.mauricio.async.db.pool.PoolExhaustedException: There are no objects available and the waitQueue is full
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.enqueuePromise(SingleThreadedAsyncObjectPool.scala:194)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.$anonfun$checkout$1(SingleThreadedAsyncObjectPool.scala:204)
+	at com.github.mauricio.async.db.util.Worker$$anon$1.run(Worker.scala:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+17:11:06.953 [scala-execution-context-global-53] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+com.github.mauricio.async.db.pool.PoolExhaustedException: There are no objects available and the waitQueue is full
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.enqueuePromise(SingleThreadedAsyncObjectPool.scala:194)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.$anonfun$checkout$1(SingleThreadedAsyncObjectPool.scala:204)
+	at com.github.mauricio.async.db.util.Worker$$anon$1.run(Worker.scala:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+17:11:06.953 [scala-execution-context-global-54] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+com.github.mauricio.async.db.pool.PoolExhaustedException: There are no objects available and the waitQueue is full
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.enqueuePromise(SingleThreadedAsyncObjectPool.scala:194)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.$anonfun$checkout$1(SingleThreadedAsyncObjectPool.scala:204)
+	at com.github.mauricio.async.db.util.Worker$$anon$1.run(Worker.scala:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+17:11:06.953 [scala-execution-context-global-50] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+com.github.mauricio.async.db.pool.PoolExhaustedException: There are no objects available and the waitQueue is full
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.enqueuePromise(SingleThreadedAsyncObjectPool.scala:194)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.$anonfun$checkout$1(SingleThreadedAsyncObjectPool.scala:204)
+	at com.github.mauricio.async.db.util.Worker$$anon$1.run(Worker.scala:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+17:11:06.953 [scala-execution-context-global-49] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+com.github.mauricio.async.db.pool.PoolExhaustedException: There are no objects available and the waitQueue is full
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.enqueuePromise(SingleThreadedAsyncObjectPool.scala:194)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.$anonfun$checkout$1(SingleThreadedAsyncObjectPool.scala:204)
+	at com.github.mauricio.async.db.util.Worker$$anon$1.run(Worker.scala:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+17:11:06.953 [scala-execution-context-global-55] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+com.github.mauricio.async.db.pool.PoolExhaustedException: There are no objects available and the waitQueue is full
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.enqueuePromise(SingleThreadedAsyncObjectPool.scala:194)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.$anonfun$checkout$1(SingleThreadedAsyncObjectPool.scala:204)
+	at com.github.mauricio.async.db.util.Worker$$anon$1.run(Worker.scala:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+17:11:06.957 [db-async-netty-thread-2] ERROR c.g.m.async.db.mysql.MySQLConnection - Received an error message -> ErrorMessage(1054,#42S22,Unknown column 'utente.password' in 'field list')
+17:11:06.958 [db-async-netty-thread-1] ERROR c.g.m.async.db.mysql.MySQLConnection - Received an error message -> ErrorMessage(1054,#42S22,Unknown column 'utente.password' in 'field list')
+17:11:06.976 [scala-execution-context-global-53] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+com.github.mauricio.async.db.pool.PoolExhaustedException: There are no objects available and the waitQueue is full
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.enqueuePromise(SingleThreadedAsyncObjectPool.scala:194)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.$anonfun$checkout$1(SingleThreadedAsyncObjectPool.scala:204)
+	at com.github.mauricio.async.db.util.Worker$$anon$1.run(Worker.scala:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+17:11:06.976 [scala-execution-context-global-51] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+com.github.mauricio.async.db.mysql.exceptions.MySQLException: Error 1054 - #42S22 - Unknown column 'utente.password' in 'field list'
+	at com.github.mauricio.async.db.mysql.MySQLConnection.onError(MySQLConnection.scala:126)
+	at com.github.mauricio.async.db.mysql.codec.MySQLConnectionHandler.channelRead0(MySQLConnectionHandler.scala:107)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at java.lang.Thread.run(Thread.java:748)
+17:11:06.976 [scala-execution-context-global-49] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+com.github.mauricio.async.db.mysql.exceptions.MySQLException: Error 1054 - #42S22 - Unknown column 'utente.password' in 'field list'
+	at com.github.mauricio.async.db.mysql.MySQLConnection.onError(MySQLConnection.scala:126)
+	at com.github.mauricio.async.db.mysql.codec.MySQLConnectionHandler.channelRead0(MySQLConnectionHandler.scala:107)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at java.lang.Thread.run(Thread.java:748)
+17:11:09.268 [db-async-netty-thread-3] ERROR c.g.m.async.db.mysql.MySQLConnection - Received an error message -> ErrorMessage(1054,#42S22,Unknown column 'utente.password' in 'field list')
+17:11:09.270 [scala-execution-context-global-53] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+com.github.mauricio.async.db.mysql.exceptions.MySQLException: Error 1054 - #42S22 - Unknown column 'utente.password' in 'field list'
+	at com.github.mauricio.async.db.mysql.MySQLConnection.onError(MySQLConnection.scala:126)
+	at com.github.mauricio.async.db.mysql.codec.MySQLConnectionHandler.channelRead0(MySQLConnectionHandler.scala:107)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at java.lang.Thread.run(Thread.java:748)
+17:13:28.317 [db-async-netty-thread-8] ERROR c.g.m.async.db.mysql.MySQLConnection - Received an error message -> ErrorMessage(1406,#22001,Data too long for column 'password' at row 1)
+17:13:28.319 [scala-execution-context-global-101] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+com.github.mauricio.async.db.mysql.exceptions.MySQLException: Error 1406 - #22001 - Data too long for column 'password' at row 1
+	at com.github.mauricio.async.db.mysql.MySQLConnection.onError(MySQLConnection.scala:126)
+	at com.github.mauricio.async.db.mysql.codec.MySQLConnectionHandler.channelRead0(MySQLConnectionHandler.scala:107)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at java.lang.Thread.run(Thread.java:748)
+17:21:20.264 [db-async-netty-thread-1] ERROR c.g.m.async.db.mysql.MySQLConnection - Received an error message -> ErrorMessage(1364,#HY000,Field 'id' doesn't have a default value)
+17:21:20.265 [scala-execution-context-global-169] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+com.github.mauricio.async.db.mysql.exceptions.MySQLException: Error 1364 - #HY000 - Field 'id' doesn't have a default value
+	at com.github.mauricio.async.db.mysql.MySQLConnection.onError(MySQLConnection.scala:126)
+	at com.github.mauricio.async.db.mysql.codec.MySQLConnectionHandler.channelRead0(MySQLConnectionHandler.scala:107)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at java.lang.Thread.run(Thread.java:748)
+17:27:05.902 [scala-execution-context-global-199] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+java.util.NoSuchElementException: head of empty list
+	at scala.collection.immutable.Nil$.head(List.scala:428)
+	at scala.collection.immutable.Nil$.head(List.scala:425)
+	at it.lorenzogabriele.impara.server.db.QuillDb.$anonfun$addMazzo$2(QuillDb.scala:82)
+	at it.lorenzogabriele.impara.server.db.QuillDb.$anonfun$addMazzo$2$adapted(QuillDb.scala:82)
+	at scala.util.Success.$anonfun$map$1(Try.scala:251)
+	at scala.util.Success.map(Try.scala:209)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:287)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:29)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:29)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at scala.concurrent.impl.ExecutionContextImpl$AdaptedForkJoinTask.exec(ExecutionContextImpl.scala:140)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.pollAndExecAll(ForkJoinPool.java:1021)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.execLocalTasks(ForkJoinPool.java:1046)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1058)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+17:27:47.328 [scala-execution-context-global-195] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+java.util.NoSuchElementException: head of empty list
+	at scala.collection.immutable.Nil$.head(List.scala:428)
+	at scala.collection.immutable.Nil$.head(List.scala:425)
+	at it.lorenzogabriele.impara.server.db.QuillDb.$anonfun$addMazzo$2(QuillDb.scala:82)
+	at it.lorenzogabriele.impara.server.db.QuillDb.$anonfun$addMazzo$2$adapted(QuillDb.scala:82)
+	at scala.util.Success.$anonfun$map$1(Try.scala:251)
+	at scala.util.Success.map(Try.scala:209)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:287)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:29)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:29)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at scala.concurrent.impl.ExecutionContextImpl$AdaptedForkJoinTask.exec(ExecutionContextImpl.scala:140)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.pollAndExecAll(ForkJoinPool.java:1021)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.execLocalTasks(ForkJoinPool.java:1046)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1058)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+17:33:46.035 [db-async-netty-thread-1] ERROR c.g.m.async.db.mysql.MySQLConnection - Received an error message -> ErrorMessage(1054,#42S22,Unknown column 'numero' in 'field list')
+17:33:46.036 [scala-execution-context-global-264] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+com.github.mauricio.async.db.mysql.exceptions.MySQLException: Error 1054 - #42S22 - Unknown column 'numero' in 'field list'
+	at com.github.mauricio.async.db.mysql.MySQLConnection.onError(MySQLConnection.scala:126)
+	at com.github.mauricio.async.db.mysql.codec.MySQLConnectionHandler.channelRead0(MySQLConnectionHandler.scala:107)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at java.lang.Thread.run(Thread.java:748)
+17:36:10.363 [db-async-netty-thread-2] ERROR c.g.m.async.db.mysql.MySQLConnection - Received an error message -> ErrorMessage(1452,#23000,Cannot add or update a child row: a foreign key constraint fails (`mydb`.`Carta`, CONSTRAINT `fk_Carta_1` FOREIGN KEY (`mazzo`) REFERENCES `Mazzo` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION))
+17:36:10.384 [scala-execution-context-global-280] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+com.github.mauricio.async.db.mysql.exceptions.MySQLException: Error 1452 - #23000 - Cannot add or update a child row: a foreign key constraint fails (`mydb`.`Carta`, CONSTRAINT `fk_Carta_1` FOREIGN KEY (`mazzo`) REFERENCES `Mazzo` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+	at com.github.mauricio.async.db.mysql.MySQLConnection.onError(MySQLConnection.scala:126)
+	at com.github.mauricio.async.db.mysql.codec.MySQLConnectionHandler.channelRead0(MySQLConnectionHandler.scala:107)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at java.lang.Thread.run(Thread.java:748)

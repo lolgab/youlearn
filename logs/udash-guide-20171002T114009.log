@@ -1,0 +1,240 @@
+11:40:09.373 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1867ms
+11:40:09.716 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereHandler io.udash.rpc.AtmosphereService mapped to context-path: /*
+11:40:09.717 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed the following AtmosphereInterceptor mapped to AtmosphereHandler io.udash.rpc.AtmosphereService
+11:40:09.744 [main] WARN  o.atmosphere.cpr.AtmosphereFramework - SessionSupport error. Make sure you also define org.atmosphere.cpr.SessionSupport as a listener in web.xml, see https://github.com/Atmosphere/atmosphere/wiki/Enabling-HttpSession-Support
+11:40:09.766 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Atmosphere is using org.atmosphere.cpr.DefaultAnnotationProcessor for processing annotation
+11:40:09.766 [main] INFO  o.a.cpr.DefaultAnnotationProcessor - AnnotationProcessor class org.atmosphere.cpr.DefaultAnnotationProcessor$BytecodeBasedAnnotationProcessor being used
+11:40:10.076 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Auto detecting WebSocketHandler in /WEB-INF/classes/
+11:40:10.077 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+11:40:10.122 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installing Default AtmosphereInterceptors
+11:40:10.123 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+11:40:10.123 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+11:40:10.124 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+11:40:10.125 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+11:40:10.126 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+11:40:10.126 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+11:40:10.127 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+11:40:10.128 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+11:40:10.129 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+11:40:10.129 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+11:40:10.129 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+11:40:10.130 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+11:40:10.130 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+11:40:10.134 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+11:40:10.135 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+11:40:10.135 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+11:40:10.135 [main] INFO  o.a.interceptor.HeartbeatInterceptor - HeartbeatInterceptor configured with padding value 'X', client frequency 30 seconds and server frequency 30 seconds
+11:40:10.135 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+11:40:10.136 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+11:40:10.136 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+11:40:10.136 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+11:40:10.136 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+11:40:10.136 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+11:40:10.136 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+11:40:10.138 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+11:40:10.139 [main] WARN  o.atmosphere.cpr.AtmosphereFramework - No BroadcasterCache configured. Broadcasted message between client reconnection will be LOST. It is recommended to configure the org.atmosphere.cache.UUIDBroadcasterCache
+11:40:10.139 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+11:40:10.139 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Broadcaster Shared List Resources: false
+11:40:10.139 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Broadcaster Polling Wait Time 100
+11:40:10.140 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Shared ExecutorService supported: true
+11:40:10.140 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Messaging Thread Pool Size: 4
+11:40:10.140 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Async I/O Thread Pool Size: 4
+11:40:10.140 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+11:40:10.140 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+11:40:10.140 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+11:40:10.140 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Invoke AtmosphereInterceptor on WebSocket message true
+11:40:10.140 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - HttpSession supported: true
+11:40:10.141 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Atmosphere is using DefaultAtmosphereObjectFactory for dependency injection and object creation
+11:40:10.141 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Atmosphere is using async support: org.atmosphere.container.Jetty9AsyncSupportWithWebSocket running under container: Undefined/0.0 with WebSocket enabled.
+11:40:10.143 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - Atmosphere Framework 2.4.9 started.
+11:40:10.143 [main] INFO  o.atmosphere.cpr.AtmosphereFramework - 
+
+	For Atmosphere Framework Commercial Support, visit 
+	http://www.async-io.org/ or send an email to support@async-io.org
+
+11:40:10.149 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.11.v20160721
+11:40:10.479 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@21e360a{/,null,AVAILABLE}
+11:40:10.611 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@37d4349f{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+11:40:10.612 [main] INFO  org.eclipse.jetty.server.Server - Started @3109ms
+11:40:11.197 [Thread-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Latest version of Atmosphere's JavaScript Client 2.3.5
+11:40:32.852 [scala-execution-context-global-33] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+java.lang.Exception: null
+	at it.lorenzogabriele.impara.server.rpc.MainServerRPCImpl.services(ExposedRpcInterfaces.scala:43)
+	at it.lorenzogabriele.impara.server.jetty.ApplicationServer$$anon$14$$anon$1.get(ApplicationServer.scala:41)
+	at it.lorenzogabriele.impara.server.jetty.ApplicationServer$$anon$14$$anon$1.get(ApplicationServer.scala:41)
+	at com.avsystem.commons.rpc.GetterRPCFramework$GetterRawRPC.$anonfun$resolveGetterChain$1(StandardRPCFramework.scala:50)
+	at scala.collection.immutable.List.$anonfun$foldRight$1(List.scala:405)
+	at scala.collection.immutable.List.foldRight(List.scala:86)
+	at com.avsystem.commons.rpc.GetterRPCFramework$GetterRawRPC.resolveGetterChain(StandardRPCFramework.scala:50)
+	at com.avsystem.commons.rpc.GetterRPCFramework$GetterRawRPC.resolveGetterChain$(StandardRPCFramework.scala:49)
+	at it.lorenzogabriele.impara.server.jetty.ApplicationServer$$anon$14$$anon$1.resolveGetterChain(ApplicationServer.scala:41)
+	at io.udash.rpc.ExposesServerRPC.handleRpcCall(ExposesServerRPC.scala:23)
+	at io.udash.rpc.AtmosphereService.handleRpcRequest(AtmosphereService.scala:182)
+	at io.udash.rpc.AtmosphereService.handleRequest(AtmosphereService.scala:122)
+	at io.udash.rpc.AtmosphereService.onWebsocketRequest(AtmosphereService.scala:84)
+	at io.udash.rpc.AtmosphereService.onRequest(AtmosphereService.scala:64)
+	at org.atmosphere.cpr.AsynchronousProcessor.action(AsynchronousProcessor.java:223)
+	at org.atmosphere.cpr.AsynchronousProcessor.suspended(AsynchronousProcessor.java:115)
+	at org.atmosphere.container.Jetty9AsyncSupportWithWebSocket.service(Jetty9AsyncSupportWithWebSocket.java:180)
+	at org.atmosphere.cpr.AtmosphereFramework.doCometSupport(AtmosphereFramework.java:2287)
+	at org.atmosphere.websocket.DefaultWebSocketProcessor.dispatch(DefaultWebSocketProcessor.java:593)
+	at org.atmosphere.websocket.DefaultWebSocketProcessor$3.run(DefaultWebSocketProcessor.java:345)
+	at org.atmosphere.util.VoidExecutorService.execute(VoidExecutorService.java:101)
+	at org.atmosphere.websocket.DefaultWebSocketProcessor.dispatch(DefaultWebSocketProcessor.java:340)
+	at org.atmosphere.websocket.DefaultWebSocketProcessor.invokeWebSocketProtocol(DefaultWebSocketProcessor.java:447)
+	at org.atmosphere.container.Jetty9WebSocketHandler.onWebSocketText(Jetty9WebSocketHandler.java:128)
+	at org.eclipse.jetty.websocket.common.events.JettyListenerEventDriver.onTextMessage(JettyListenerEventDriver.java:189)
+	at org.eclipse.jetty.websocket.common.message.SimpleTextMessage.messageComplete(SimpleTextMessage.java:69)
+	at org.eclipse.jetty.websocket.common.events.AbstractEventDriver.appendMessage(AbstractEventDriver.java:66)
+	at org.eclipse.jetty.websocket.common.events.JettyListenerEventDriver.onTextFrame(JettyListenerEventDriver.java:158)
+	at org.eclipse.jetty.websocket.common.events.AbstractEventDriver.incomingFrame(AbstractEventDriver.java:162)
+	at org.eclipse.jetty.websocket.common.WebSocketSession.incomingFrame(WebSocketSession.java:376)
+	at org.eclipse.jetty.websocket.common.extensions.ExtensionStack.incomingFrame(ExtensionStack.java:220)
+	at org.eclipse.jetty.websocket.common.Parser.notifyFrame(Parser.java:220)
+	at org.eclipse.jetty.websocket.common.Parser.parse(Parser.java:256)
+	at org.eclipse.jetty.websocket.common.io.AbstractWebSocketConnection.readParse(AbstractWebSocketConnection.java:679)
+	at org.eclipse.jetty.websocket.common.io.AbstractWebSocketConnection.onFillable(AbstractWebSocketConnection.java:511)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+11:42:00.548 [db-async-worker-thread-1] ERROR c.g.m.a.d.p.SingleThreadedAsyncObjectPool - Failed to validate object
+java.util.concurrent.TimeoutException: Futures timed out after [5 seconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:255)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:259)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:215)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)
+	at scala.concurrent.Await$.result(package.scala:142)
+	at com.github.mauricio.async.db.mysql.pool.MySQLConnectionFactory.$anonfun$test$1(MySQLConnectionFactory.scala:125)
+	at scala.util.Try$.apply(Try.scala:209)
+	at com.github.mauricio.async.db.mysql.pool.MySQLConnectionFactory.test(MySQLConnectionFactory.scala:124)
+	at com.github.mauricio.async.db.mysql.pool.MySQLConnectionFactory.test(MySQLConnectionFactory.scala:39)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.$anonfun$testObjects$1(SingleThreadedAsyncObjectPool.scala:253)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.$anonfun$testObjects$1$adapted(SingleThreadedAsyncObjectPool.scala:252)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.com$github$mauricio$async$db$pool$SingleThreadedAsyncObjectPool$$testObjects(SingleThreadedAsyncObjectPool.scala:252)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool$$anon$1.$anonfun$run$1(SingleThreadedAsyncObjectPool.scala:62)
+	at com.github.mauricio.async.db.util.Worker$$anon$1.run(Worker.scala:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11:42:00.548 [db-async-worker-thread-1] ERROR c.g.m.a.d.p.SingleThreadedAsyncObjectPool - Failed to validate object
+java.util.concurrent.TimeoutException: Futures timed out after [5 seconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:255)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:259)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:215)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)
+	at scala.concurrent.Await$.result(package.scala:142)
+	at com.github.mauricio.async.db.mysql.pool.MySQLConnectionFactory.$anonfun$test$1(MySQLConnectionFactory.scala:125)
+	at scala.util.Try$.apply(Try.scala:209)
+	at com.github.mauricio.async.db.mysql.pool.MySQLConnectionFactory.test(MySQLConnectionFactory.scala:124)
+	at com.github.mauricio.async.db.mysql.pool.MySQLConnectionFactory.test(MySQLConnectionFactory.scala:39)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.$anonfun$testObjects$1(SingleThreadedAsyncObjectPool.scala:253)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.$anonfun$testObjects$1$adapted(SingleThreadedAsyncObjectPool.scala:252)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.com$github$mauricio$async$db$pool$SingleThreadedAsyncObjectPool$$testObjects(SingleThreadedAsyncObjectPool.scala:252)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool$$anon$1.$anonfun$run$1(SingleThreadedAsyncObjectPool.scala:62)
+	at com.github.mauricio.async.db.util.Worker$$anon$1.run(Worker.scala:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11:42:00.859 [db-async-worker-thread-1] ERROR c.g.m.a.d.p.SingleThreadedAsyncObjectPool - Failed to validate object
+java.util.concurrent.TimeoutException: Futures timed out after [5 seconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:255)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:259)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:215)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)
+	at scala.concurrent.Await$.result(package.scala:142)
+	at com.github.mauricio.async.db.mysql.pool.MySQLConnectionFactory.$anonfun$test$1(MySQLConnectionFactory.scala:125)
+	at scala.util.Try$.apply(Try.scala:209)
+	at com.github.mauricio.async.db.mysql.pool.MySQLConnectionFactory.test(MySQLConnectionFactory.scala:124)
+	at com.github.mauricio.async.db.mysql.pool.MySQLConnectionFactory.test(MySQLConnectionFactory.scala:39)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.$anonfun$testObjects$1(SingleThreadedAsyncObjectPool.scala:253)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.$anonfun$testObjects$1$adapted(SingleThreadedAsyncObjectPool.scala:252)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.com$github$mauricio$async$db$pool$SingleThreadedAsyncObjectPool$$testObjects(SingleThreadedAsyncObjectPool.scala:252)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool$$anon$1.$anonfun$run$1(SingleThreadedAsyncObjectPool.scala:62)
+	at com.github.mauricio.async.db.util.Worker$$anon$1.run(Worker.scala:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11:45:41.251 [db-async-worker-thread-1] ERROR c.g.m.a.d.p.SingleThreadedAsyncObjectPool - Failed to validate object
+java.util.concurrent.TimeoutException: Futures timed out after [5 seconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:255)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:259)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:215)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)
+	at scala.concurrent.Await$.result(package.scala:142)
+	at com.github.mauricio.async.db.mysql.pool.MySQLConnectionFactory.$anonfun$test$1(MySQLConnectionFactory.scala:125)
+	at scala.util.Try$.apply(Try.scala:209)
+	at com.github.mauricio.async.db.mysql.pool.MySQLConnectionFactory.test(MySQLConnectionFactory.scala:124)
+	at com.github.mauricio.async.db.mysql.pool.MySQLConnectionFactory.test(MySQLConnectionFactory.scala:39)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.$anonfun$testObjects$1(SingleThreadedAsyncObjectPool.scala:253)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.$anonfun$testObjects$1$adapted(SingleThreadedAsyncObjectPool.scala:252)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.com$github$mauricio$async$db$pool$SingleThreadedAsyncObjectPool$$testObjects(SingleThreadedAsyncObjectPool.scala:252)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool$$anon$1.$anonfun$run$1(SingleThreadedAsyncObjectPool.scala:62)
+	at com.github.mauricio.async.db.util.Worker$$anon$1.run(Worker.scala:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11:45:41.251 [db-async-worker-thread-1] ERROR c.g.m.a.d.p.SingleThreadedAsyncObjectPool - Failed to validate object
+java.util.concurrent.TimeoutException: Futures timed out after [5 seconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:255)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:259)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:215)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)
+	at scala.concurrent.Await$.result(package.scala:142)
+	at com.github.mauricio.async.db.mysql.pool.MySQLConnectionFactory.$anonfun$test$1(MySQLConnectionFactory.scala:125)
+	at scala.util.Try$.apply(Try.scala:209)
+	at com.github.mauricio.async.db.mysql.pool.MySQLConnectionFactory.test(MySQLConnectionFactory.scala:124)
+	at com.github.mauricio.async.db.mysql.pool.MySQLConnectionFactory.test(MySQLConnectionFactory.scala:39)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.$anonfun$testObjects$1(SingleThreadedAsyncObjectPool.scala:253)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.$anonfun$testObjects$1$adapted(SingleThreadedAsyncObjectPool.scala:252)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.com$github$mauricio$async$db$pool$SingleThreadedAsyncObjectPool$$testObjects(SingleThreadedAsyncObjectPool.scala:252)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool$$anon$1.$anonfun$run$1(SingleThreadedAsyncObjectPool.scala:62)
+	at com.github.mauricio.async.db.util.Worker$$anon$1.run(Worker.scala:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11:45:45.870 [db-async-worker-thread-1] ERROR c.g.m.a.d.p.SingleThreadedAsyncObjectPool - Failed to validate object
+java.util.concurrent.TimeoutException: Futures timed out after [5 seconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:255)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:259)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:215)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)
+	at scala.concurrent.Await$.result(package.scala:142)
+	at com.github.mauricio.async.db.mysql.pool.MySQLConnectionFactory.$anonfun$test$1(MySQLConnectionFactory.scala:125)
+	at scala.util.Try$.apply(Try.scala:209)
+	at com.github.mauricio.async.db.mysql.pool.MySQLConnectionFactory.test(MySQLConnectionFactory.scala:124)
+	at com.github.mauricio.async.db.mysql.pool.MySQLConnectionFactory.test(MySQLConnectionFactory.scala:39)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.$anonfun$testObjects$1(SingleThreadedAsyncObjectPool.scala:253)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.$anonfun$testObjects$1$adapted(SingleThreadedAsyncObjectPool.scala:252)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.com$github$mauricio$async$db$pool$SingleThreadedAsyncObjectPool$$testObjects(SingleThreadedAsyncObjectPool.scala:252)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool$$anon$1.$anonfun$run$1(SingleThreadedAsyncObjectPool.scala:62)
+	at com.github.mauricio.async.db.util.Worker$$anon$1.run(Worker.scala:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+11:45:54.514 [scala-execution-context-global-103] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+java.util.concurrent.TimeoutException: Futures timed out after [5 seconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:255)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:259)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:215)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)
+	at scala.concurrent.Await$.result(package.scala:142)
+	at com.github.mauricio.async.db.mysql.pool.MySQLConnectionFactory.create(MySQLConnectionFactory.scala:52)
+	at com.github.mauricio.async.db.mysql.pool.MySQLConnectionFactory.create(MySQLConnectionFactory.scala:39)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.createOrReturnItem(SingleThreadedAsyncObjectPool.scala:222)
+	at com.github.mauricio.async.db.pool.SingleThreadedAsyncObjectPool.$anonfun$checkout$1(SingleThreadedAsyncObjectPool.scala:206)
+	at com.github.mauricio.async.db.util.Worker$$anon$1.run(Worker.scala:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

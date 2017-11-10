@@ -1,0 +1,149 @@
+12:13:25.486 [run-main-0] INFO  org.eclipse.jetty.util.log - Logging initialized @90412ms
+12:13:25.704 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereHandler io.udash.rpc.AtmosphereService mapped to context-path: /*
+12:13:25.704 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed the following AtmosphereInterceptor mapped to AtmosphereHandler io.udash.rpc.AtmosphereService
+12:13:25.730 [run-main-0] WARN  o.atmosphere.cpr.AtmosphereFramework - SessionSupport error. Make sure you also define org.atmosphere.cpr.SessionSupport as a listener in web.xml, see https://github.com/Atmosphere/atmosphere/wiki/Enabling-HttpSession-Support
+12:13:25.762 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Atmosphere is using org.atmosphere.cpr.DefaultAnnotationProcessor for processing annotation
+12:13:25.762 [run-main-0] INFO  o.a.cpr.DefaultAnnotationProcessor - AnnotationProcessor class org.atmosphere.cpr.DefaultAnnotationProcessor$BytecodeBasedAnnotationProcessor being used
+12:13:25.838 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Auto detecting WebSocketHandler in /WEB-INF/classes/
+12:13:25.838 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+12:13:25.886 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installing Default AtmosphereInterceptors
+12:13:25.887 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+12:13:25.887 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+12:13:25.888 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+12:13:25.888 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+12:13:25.888 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+12:13:25.889 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+12:13:25.889 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+12:13:25.890 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+12:13:25.891 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+12:13:25.891 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+12:13:25.891 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+12:13:25.891 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+12:13:25.892 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+12:13:25.897 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+12:13:25.898 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+12:13:25.898 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+12:13:25.898 [run-main-0] INFO  o.a.interceptor.HeartbeatInterceptor - HeartbeatInterceptor configured with padding value 'X', client frequency 30 seconds and server frequency 30 seconds
+12:13:25.899 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+12:13:25.899 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+12:13:25.899 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+12:13:25.899 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+12:13:25.899 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+12:13:25.899 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+12:13:25.899 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+12:13:25.900 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+12:13:25.901 [run-main-0] WARN  o.atmosphere.cpr.AtmosphereFramework - No BroadcasterCache configured. Broadcasted message between client reconnection will be LOST. It is recommended to configure the org.atmosphere.cache.UUIDBroadcasterCache
+12:13:25.901 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+12:13:25.901 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Broadcaster Shared List Resources: false
+12:13:25.902 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Broadcaster Polling Wait Time 100
+12:13:25.902 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Shared ExecutorService supported: true
+12:13:25.902 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Messaging Thread Pool Size: 4
+12:13:25.902 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Async I/O Thread Pool Size: 4
+12:13:25.902 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+12:13:25.902 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+12:13:25.902 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+12:13:25.902 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Invoke AtmosphereInterceptor on WebSocket message true
+12:13:25.902 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - HttpSession supported: true
+12:13:25.902 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Atmosphere is using DefaultAtmosphereObjectFactory for dependency injection and object creation
+12:13:25.902 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Atmosphere is using async support: org.atmosphere.container.Jetty9AsyncSupportWithWebSocket running under container: Undefined/0.0 with WebSocket enabled.
+12:13:25.904 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - Atmosphere Framework 2.4.9 started.
+12:13:25.905 [run-main-0] INFO  o.atmosphere.cpr.AtmosphereFramework - 
+
+	For Atmosphere Framework Commercial Support, visit 
+	http://www.async-io.org/ or send an email to support@async-io.org
+
+12:13:25.911 [run-main-0] INFO  org.eclipse.jetty.server.Server - jetty-9.3.11.v20160721
+12:13:26.019 [run-main-0] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1cecc426{/,null,AVAILABLE}
+12:13:26.067 [run-main-0] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@1d995b93{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+12:13:26.068 [run-main-0] INFO  org.eclipse.jetty.server.Server - Started @90997ms
+12:13:26.525 [Thread-2] INFO  o.atmosphere.cpr.AtmosphereFramework - Latest version of Atmosphere's JavaScript Client 2.3.5
+12:14:00.669 [scala-execution-context-global-133] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+java.net.UnknownHostException: host
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at java.net.InetAddress.getByName(InetAddress.java:1076)
+	at io.netty.resolver.DefaultNameResolver.doResolve(DefaultNameResolver.java:40)
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:62)
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:53)
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:55)
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:31)
+	at io.netty.resolver.AbstractAddressResolver.resolve(AbstractAddressResolver.java:106)
+	at io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:208)
+	at io.netty.bootstrap.Bootstrap.access$000(Bootstrap.java:49)
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:188)
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:174)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:514)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:488)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:427)
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:111)
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:82)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetSuccess(AbstractChannel.java:897)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:508)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:419)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:478)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:418)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:454)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at java.lang.Thread.run(Thread.java:748)
+12:14:13.804 [scala-execution-context-global-136] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+java.net.UnknownHostException: host
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at java.net.InetAddress.getByName(InetAddress.java:1076)
+	at io.netty.resolver.DefaultNameResolver.doResolve(DefaultNameResolver.java:40)
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:62)
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:53)
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:55)
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:31)
+	at io.netty.resolver.AbstractAddressResolver.resolve(AbstractAddressResolver.java:106)
+	at io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:208)
+	at io.netty.bootstrap.Bootstrap.access$000(Bootstrap.java:49)
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:188)
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:174)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:514)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:488)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:427)
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:111)
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:82)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetSuccess(AbstractChannel.java:897)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:508)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:419)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:478)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:418)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:454)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at java.lang.Thread.run(Thread.java:748)
+12:14:16.022 [scala-execution-context-global-136] ERROR io.udash.rpc.AtmosphereService - RPC request handling failed
+java.net.UnknownHostException: host
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at java.net.InetAddress.getByName(InetAddress.java:1076)
+	at io.netty.resolver.DefaultNameResolver.doResolve(DefaultNameResolver.java:40)
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:62)
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:53)
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:55)
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:31)
+	at io.netty.resolver.AbstractAddressResolver.resolve(AbstractAddressResolver.java:106)
+	at io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:208)
+	at io.netty.bootstrap.Bootstrap.access$000(Bootstrap.java:49)
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:188)
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:174)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:514)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:488)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:427)
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:111)
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:82)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetSuccess(AbstractChannel.java:897)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:508)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:419)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:478)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:418)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:454)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at java.lang.Thread.run(Thread.java:748)
